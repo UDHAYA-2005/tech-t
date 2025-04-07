@@ -174,7 +174,7 @@ const Home = () => {
         </div>
         <div className="home-section4-content">
           <div className="home-section4-content-1">
-            <div className="home-section4-content-1-img">
+            <div id="First-image" className="home-section4-content-1-img">
               <img src="src/assets/tech-Home/Home-4continer-img1.png" alt="" />
             </div>
             <div className="home-section4-content-1-txt">

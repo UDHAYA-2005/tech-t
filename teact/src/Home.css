@@ -12,7 +12,7 @@
     margin-top: 0PX;
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 8rem;
+    font-size: 10rem;
     font-weight: 700;
     color: #ffffff;
     text-align: center;
@@ -37,13 +37,13 @@
 .home-section1-left-content {
     width: 50%;
     padding: 0 50px;
+    color: rgba(176, 176, 176, 1);
 }
 
 .home-section1-p1 {
     max-width: 90%;
     font-size: 2rem;
     font-weight: 400;
-    color: #ffffff;
     margin-bottom: 50px;
     opacity: 0;
     animation: fadeInText 1.5s 2s forwards;
@@ -819,13 +819,18 @@
     text-align: left;
     animation: fadeInLeft 1.5s forwards;
 }
+#First-image{
+ margin-left: 3rem;
+}
 
 .home-section4-content-1-img{
     width: 33%;
     padding: 30 50px;
+    transition: all 0.3s;
 }
 .home-section4-content-1-img:hover{
-    transform: scale(1);
+    transform: scale(1.1);
+    transition: all 0.3s;
 
 
 }
