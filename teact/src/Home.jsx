@@ -111,7 +111,7 @@ const Home = () => {
         <div>
           <p className="home-section3-hp1">Our Services</p>
           <img
-            src="src/assets/tech-Home/Group 1.png"
+            src="src/assets/tech-Home/Group 2.png"
             alt=""
             className="home-section3-hp1-bg"
           />
@@ -215,6 +215,41 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="home-section4">
+        <div>
+          <p className="home-section3-hp1">Our portfolio</p>
+          <img
+            src="src/assets/tech-Home/Group 2.png"
+            alt=""
+            className="home-section3-hp1-bg"
+          />
+          <p className="home-section4-hp1">
+          At Tech Craft, we pride ourselves on delivering innovative and high-quality digital solutions. Here are some of our standout projects that showcase our expertise and commitment to excellence.
+          </p>
+        </div>
+        <div className="img-content-div">
+          <div className="row-one">
+            <div className="left-img">
+              <img src=".\src\assets\tech-Home\Home-5continer-img1.png" alt="" />
+            </div>
+            <div className="right-content">
+              <h2>1. Pet Adoption Website</h2>
+              <p>A heartwarming pet adoption website designed to connect loving families with their perfect furry companions. Our mission is to make the pet adoption process easy, enjoyable, and effective, bringing joy to both pets and their new owners.</p>
+              <button>Preview</button>
+            </div>
+          </div>
+          <div className="row-two">
+            <div className="left-content">
+            <h2>1. Pet Adoption Website</h2>
+              <p>A heartwarming pet adoption website designed to connect loving families with their perfect furry companions. Our mission is to make the pet adoption process easy, enjoyable, and effective, bringing joy to both pets and their new owners.</p>
+              <button>Preview</button>
+            </div>
+            <div className="right-img">
+              <img src=".\src\assets\tech-Home\Home-5continer-img2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        </section>
     </>
   );
 };
