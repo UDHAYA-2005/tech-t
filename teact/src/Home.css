@@ -777,7 +777,7 @@
     animation: fadeInLeft 1.5s forwards;
 }
 .home-section4-hp1{
-    text-align: center;
+    text-align: justify;
     font-size: 1.5rem;
     color: #000000;
     margin-bottom: 30px;
@@ -890,9 +890,79 @@
 .right-content button{
     border-radius: 1.2rem;
     width: 12rem;
+    border: none;
     height: 4rem;
     margin-top: 4rem;
-    background-color: rgba(60, 34, 206, 0.81);
+    background-color: rgba(219, 151, 49, 1);
     color: #ffffff;
     font-size: 1.3rem;
+}
+
+
+
+.row-two{
+    display: flex;
+}
+.right-img {
+    height: fit-content;
+
+    transition: all 0.3s;
+}
+.right-img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+.right-img img {
+    margin-right:40px;
+    width: 90%;
+    height: 30rem;
+    opacity: 0;
+    animation: fadeInLeft 1.5s forwards;
+}
+
+/* Left content*/
+
+.left-content {
+    width: 42%;
+    padding: 0 50px;
+    padding-left: 9rem;
+    padding-top: 3rem;
+}
+.left-content h2{
+    font-size:2rem;
+}
+.left-content p{
+    font-size:1.4rem;
+    word-spacing: 7px;
+    line-height: 3rem;
+}
+.left-content button{
+    border-radius: 1.2rem;
+    width: 12rem;
+    height: 4rem;
+    margin-top: 4rem;
+    background-color:rgba(219, 151, 49, 1);
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+
+/* section 5 */
+
+
+.home-section5-hp1-bg{
+    left: 50%;
+    top: -5px;
+    position: relative;
+}
+.home-section5-hp1{
+    text-align:justify;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeInLeft 1.5s forwards;
+    padding-left: 20%;
+    padding-right: 20%;
 }

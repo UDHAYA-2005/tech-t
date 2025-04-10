@@ -235,21 +235,32 @@ const Home = () => {
             <div className="right-content">
               <h2>1. Pet Adoption Website</h2>
               <p>A heartwarming pet adoption website designed to connect loving families with their perfect furry companions. Our mission is to make the pet adoption process easy, enjoyable, and effective, bringing joy to both pets and their new owners.</p>
-              <button>Preview</button>
+              <a href="https://vickypetshop.netlify.app/" target="blank"><button>Preview</button></a>
             </div>
           </div>
           <div className="row-two">
             <div className="left-content">
-            <h2>1. Pet Adoption Website</h2>
-              <p>A heartwarming pet adoption website designed to connect loving families with their perfect furry companions. Our mission is to make the pet adoption process easy, enjoyable, and effective, bringing joy to both pets and their new owners.</p>
-              <button>Preview</button>
+            <h2>2.Cinematic Stream</h2>
+              <p>A OTT website, meticulously designed to transform online presence and drive business growth. This innovative platform combines aesthetic appeal with advanced functionality to deliver a user-centric experience that stands out in the competitive digital landscape.</p>
+              <a href="https://gleaming-dolphin-fb5182.netlify.app/" target="_blank"><button>Preview</button></a>
             </div>
             <div className="right-img">
-              <img src=".\src\assets\tech-Home\Home-5continer-img2.png" alt="" />
+              <img src=".\src\assets\tech-Home\Screenshot (25).png" alt="" />
             </div>
           </div>
         </div>
         </section>
+        <div>
+          <p className="home-section3-hp1">Meet the team</p>
+          <img
+            src="src/assets/tech-Home/Group 2.png"
+            alt=""
+            className="home-section5-hp1-bg"
+          />
+          <p className="home-section5-hp1">
+          our talented team transforms your digital dreams into stunning realities. We're a group of passionate developers, creative designers, and strategic thinkers dedicated to crafting exceptional online experiences
+          </p>
+        </div>
     </>
   );
 };
